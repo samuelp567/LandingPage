@@ -1,0 +1,53 @@
+*{
+    color:burlywood
+}
+body{
+    background-color:#bd0f2f;
+}
+
+#top{
+    background-color:darkred;
+}
+h1{
+    display: inline;
+    border:2px solid grey;
+    border-radius: 10px;
+    background-color:crimson;
+    opacity: 0.8;
+}
+i{
+    font-size: 40px;
+    color:#bd0f2f;
+}
+.click{
+    display: inline-block;
+    border:2px solid grey;
+    padding: 10px 30px;
+    margin-top: 25px;
+    background-color:crimson ;
+    font-size: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#about{
+    margin-left: 820px;
+}
+#picture{
+    background-image: url(pixil-frame.png);
+    text-align: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+img{
+    width: 250px;
+    height:150px;
+    position: absolute;
+    left:50px;
+    top: 300px;
+}
