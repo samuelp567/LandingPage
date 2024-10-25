@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 *{
-    color:burlywood
+    color:burlywood;
+    font-family: "Nova Square", sans-serif;
 }
 body{
     background-color:#bd0f2f;
@@ -30,13 +32,13 @@ i{
     opacity: 0.8;
 }
 #about{
-    margin-left: 820px;
+    margin-left: 780px;
 }
 #picture{
-    background-image: url(pixil-frame.png);
+    background-image: url(pixil-fram.png);
     text-align: center;
-    background-repeat:no-repeat ;
-    background-size: cover;
+    /* background-repeat:no-repeat ; */
+    /* background-size: cover; */
 }
 p{
     text-align: center;
