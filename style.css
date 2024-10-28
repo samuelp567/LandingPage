@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 *{
     color:burlywood;
-    font-family: "Nova Square", sans-serif;
+    font-family: "Rajdhani", sans-serif;
 }
 body{
     background-color:#bd0f2f;
@@ -35,9 +35,8 @@ i{
     margin-left: 780px;
 }
 #picture{
-    background-image: url(pixil-fram.png);
+    background-image: url(pixil-frame.png);
     text-align: center;
-    /* background-repeat:no-repeat ; */
     /* background-size: cover; */
 }
 p{
@@ -46,10 +45,17 @@ p{
     margin-left: 200px;
     margin-right: 200px;
 }
-img{
+#mortar{
     width: 250px;
     height:150px;
     position: absolute;
     left:50px;
-    top: 300px;
+    top: 350px;
+}
+#brick{
+    width: 250px;
+    height:150px;
+    position: absolute;
+    right:20px;
+    top: 350px;
 }
