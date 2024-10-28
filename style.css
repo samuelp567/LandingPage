@@ -9,6 +9,7 @@ body{
 
 #top{
     background-color:darkred;
+    padding-bottom: 25px;
 }
 h1{
     display: inline;
@@ -22,17 +23,19 @@ i{
     color:#bd0f2f;
 }
 .click{
-    display: inline-block;
+    display: inline;
     border:2px solid grey;
-    padding: 10px 30px;
-    margin-top: 25px;
+    padding:5px 20px;
+    max-width:30px;
+    
     background-color:crimson ;
     font-size: 20px;
     border-radius: 10px;
     opacity: 0.8;
 }
 #about{
-    margin-left: 780px;
+    /* display:flex; */
+
 }
 #picture{
     background-image: url(pixil-frame.png);
@@ -44,6 +47,7 @@ p{
     font-size: 30px;
     margin-left: 200px;
     margin-right: 200px;
+    min-width: 250px;
 }
 #mortar{
     width: 250px;
